@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/webview_scrollbar_blue" android:state_pressed="true">
+        <shape>
+            <corners android:bottomLeftRadius="2dp" android:bottomRightRadius="2dp" android:topLeftRadius="2dp" android:topRightRadius="2dp" />
+            <solid android:color="#ff03a9f4" />
+        </shape>
+    </item>
+    <item android:drawable="@mipmap/webview_scrollbar_gray">
+        <shape>
+            <corners android:bottomLeftRadius="2dp" android:bottomRightRadius="2dp" android:topLeftRadius="2dp" android:topRightRadius="2dp" />
+            <solid android:color="#808080" />
+        </shape>
+    </item>
+
+</selector>
